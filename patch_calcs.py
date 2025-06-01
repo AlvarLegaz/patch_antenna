@@ -27,7 +27,7 @@ delta_L = delta_L_over_h * h   # en mm
 
 # === Recalculo del largo físico del parche con Delta L ===
 L_eff = lambda_0 / (2 * sqrt(Ereff))  # Largo eléctrico efectivo actualizado
-L = L_eff - 2 * delta_L           # Largo físico (cm)
+L = L_eff - 2 * delta_L           # Largo físico (mm)
 W = W_rect                            # Antena rectangular
 
 # === Resultados ===
