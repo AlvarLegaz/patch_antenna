@@ -109,5 +109,5 @@ def microstrip_width(Z0, Er, h):
     return W_h * h  # devuelve W en mm
 
 W = microstrip_width(Z0, Er, h)
-print(f"✅ Ancho de línea microstrip para 50 Ω sobre FR-4 (h = {h} mm): {W:.2f} mm")
+print(f"Ancho de línea microstrip para 50 Ω sobre FR-4 (h = {h} mm): {W:.2f} mm")
 
